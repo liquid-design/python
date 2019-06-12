@@ -10,18 +10,23 @@ Similar to string indices, list indices start at 0, and lists can be sliced, con
 
 ### List operations
     list3 = [100,200,300,400,500]
+    
     # accessing values from list
     print "Value at the first position is : ",list3[0]
+    
     # updating values in the list
     list3[1] = 250
     print "List after Updating : ",list3
+    
     # deleting elements from the list
     del list3[2]
     print "List after deletion : ",list3
+    
     #adding values to list
     list3.append(600)
     list3.append(700)
     print "List after adding new elements : ",list3
+    
 ### Output
     Value at the first position is : 100
     List after Updating : [100,250,300,400,500]
